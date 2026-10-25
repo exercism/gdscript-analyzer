@@ -1,0 +1,14 @@
+{
+  "comments": [
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 0,
+        "description": "Trailing whitespace(s)",
+        "file": "trailing_whitespace.gd",
+        "line": 2,
+        "name": "trailing-whitespace"
+      }
+    }
+  ]
+}

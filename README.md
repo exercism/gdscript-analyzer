@@ -2,14 +2,9 @@
 
 The Docker image to automatically run tests on GDScript solutions submitted to [Exercism].
 
-## Getting started
+## Implementation
 
-Build the analyzer, conforming to the [analyzer interface specification](https://github.com/exercism/docs/blob/main/building/tooling/analyzers/interface.md).
-Update the files to match your track's needs.
-At the very least, you'll need to update `bin/run.sh`, `Dockerfile` and the test solutions in the `tests` directory
-
-- Tip: look for `TODO:` comments to point you towards code that need updating
-- Tip: look for `OPTIONAL:` comments to point you towards code that _could_ be useful
+The analyzer wraps the `gdlint` logic from `gdtoolkit` and outputs the results matching the Exercism interface.
 
 ## Run the analyzer
 

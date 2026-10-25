@@ -1,0 +1,24 @@
+{
+  "comments": [
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 2,
+        "description": "Unnecessary \"elif\" after \"return\"",
+        "file": "else_return.gd",
+        "line": 4,
+        "name": "no-elif-return"
+      }
+    },
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 2,
+        "description": "Unnecessary \"else\" after \"return\"",
+        "file": "else_return.gd",
+        "line": 6,
+        "name": "no-else-return"
+      }
+    }
+  ]
+}

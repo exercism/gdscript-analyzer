@@ -1,0 +1,34 @@
+{
+  "comments": [
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 6,
+        "description": "Function name \"Foo\" is not valid",
+        "file": "naming.gd",
+        "line": 3,
+        "name": "function-name"
+      }
+    },
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 6,
+        "description": "Function-scope variable name \"Name\" is not valid",
+        "file": "naming.gd",
+        "line": 4,
+        "name": "function-variable-name"
+      }
+    },
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 7,
+        "description": "Constant name \"Five\" is not valid",
+        "file": "naming.gd",
+        "line": 1,
+        "name": "constant-name"
+      }
+    }
+  ]
+}

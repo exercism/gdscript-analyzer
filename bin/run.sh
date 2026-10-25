@@ -15,28 +15,4 @@
 # Example:
 # ./bin/run.sh two-fer path/to/solution/folder/ path/to/output/directory/
 
-# If any required arguments is missing, print the usage and exit
-if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
-    echo "usage: ./bin/run.sh exercise-slug path/to/solution/folder/ path/to/output/directory/"
-    exit 1
-fi
-
-slug="$1"
-solution_dir=$(realpath "${2%/}")
-output_dir=$(realpath "${3%/}")
-analysis_file="${output_dir}/analysis.json"
-tags_file="${output_dir}/tags.json"
-
-# Create the output directory if it doesn't exist
-mkdir -p "${output_dir}"
-
-echo "${slug}: analyzing..."
-
-# Analyze the solution
-# TODO: replace the below command with your own command(s) 
-# to analyze the solution and output the analysis.json and
-# tags.json files
-echo '{"comments": []}' > "${analysis_file}"
-echo '{"tags": []}' > "${tags_file}"
-
-echo "${slug}: done"
+python3 "${0%.*}.py" "$@"

@@ -1,0 +1,14 @@
+{
+  "comments": [
+    {
+      "comment": "gdscript.gdlint.finding",
+      "params": {
+        "column": 10,
+        "description": "unused function argument 'bob'",
+        "file": "unused_arg.gd",
+        "line": 1,
+        "name": "unused-argument"
+      }
+    }
+  ]
+}
