@@ -16,4 +16,4 @@ COPY gdlintrc gdlintrc
 COPY bin/run.sh bin/run.sh
 COPY bin/run.py bin/run.py
 
-ENTRYPOINT ["/opt/representer/bin/run.sh"]
+ENTRYPOINT ["/opt/analyzer/bin/run.sh"]
